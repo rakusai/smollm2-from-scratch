@@ -1,0 +1,7 @@
+torch>=2.1
+safetensors
+tokenizers
+huggingface_hub
+numpy
+# only needed for verify.py
+transformers
