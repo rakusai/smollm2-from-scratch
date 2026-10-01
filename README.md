@@ -13,7 +13,7 @@ The whole model is about 200 lines in [`model.py`](model.py):
 
 Its output matches the `transformers` reference implementation exactly: the max logit difference is 0.0 for a full prompt, and greedy generation produces the same tokens.
 
-For an illustrated walkthrough of the files, the architecture, and how a prompt becomes text, see [docs/smollm2-anatomy.html](docs/smollm2-anatomy.html) ([Japanese version](docs/smollm2-anatomy-ja.html)).
+For an illustrated walkthrough of the files, the architecture, and how a prompt becomes text, see **[SmolLM2 Anatomy](https://rakusai.github.io/smollm2-from-scratch/smollm2-anatomy.html)** ([Japanese version](https://rakusai.github.io/smollm2-from-scratch/smollm2-anatomy-ja.html)). The source is in [`docs/`](docs/).
 
 ## Setup
 
