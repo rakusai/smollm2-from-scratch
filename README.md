@@ -13,7 +13,7 @@ The whole model is about 200 lines in [`model.py`](model.py):
 
 Its output matches the `transformers` reference implementation exactly: the max logit difference is 0.0 for a full prompt, and greedy generation produces the same tokens.
 
-For an illustrated walkthrough of the files, the architecture, and how a prompt becomes text, see [docs/smollm2-anatomy.html](docs/smollm2-anatomy.html).
+For an illustrated walkthrough of the files, the architecture, and how a prompt becomes text, see [docs/smollm2-anatomy.html](docs/smollm2-anatomy.html) ([Japanese version](docs/smollm2-anatomy-ja.html)).
 
 ## Setup
 
@@ -50,6 +50,7 @@ Check against the reference implementation (requires `transformers`):
 | `generate.py` | Command-line text generation |
 | `verify.py` | Comparison with Hugging Face `transformers` |
 | `docs/smollm2-anatomy.html` | Illustrated explanation |
+| `docs/smollm2-anatomy-ja.html` | Illustrated explanation (Japanese) |
 
 ## Performance
 
